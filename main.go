@@ -1,6 +1,6 @@
 package main
 
-import go_server "Golab/go-server"
+import  "Golab/go-server"
 
 func main() {
 	go_server.Run()
