@@ -20,12 +20,14 @@ func Loop2() {
 		}
 	}
 }
+
 func BenchmarkLoop2(b *testing.B) {
 	b.ResetTimer()
 	for i:=0;i<b.N;i++ {
 		Loop2()
 	}
 }
+
 func BenchmarkLoop1(b *testing.B) {
 	b.ResetTimer()
 	for i:=0;i<b.N;i++ {

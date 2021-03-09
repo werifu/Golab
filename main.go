@@ -1,7 +1,9 @@
 package main
 
-import  "Golab/go-server"
+import (
+	"Golab/func_options"
+)
 
 func main() {
-	go_server.Run()
+	func_options.Solution3()
 }
